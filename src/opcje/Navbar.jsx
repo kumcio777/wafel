@@ -25,7 +25,7 @@ const toggleLooping = () => {
   const [response, setResponse] = useState('');
   const handleSubmit = (e) =>{
     e.preventDefault();
-    fetch('http://localhost:3001/',{
+    fetch('http://54.157.232.195:3001',{
       method:'POST',
       headers: {
         'Content-Type': 'application/json',
